@@ -3,7 +3,7 @@
 LinkedIn AI Reply is a browser extension built with WXT, React, and TypeScript that enhances your LinkedIn messaging experience by providing AI-powered message suggestions and editing capabilities.
 
 ## video demo
-
+https://github.com/user-attachments/assets/41e8a5ce-b988-4675-b4a4-642f63344913
 
 ## Features
 
