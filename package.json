@@ -1,0 +1,33 @@
+{
+  "name": "wxt-react-starter",
+  "description": "manifest.json description",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "build:css": "npx tailwindcss -i ./entrypoints/popup/style.css -o ./.output/chrome-mv3/output.css --watch",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "compile": "tsc --noEmit",
+    "postinstall": "wxt prepare"
+  },
+  "dependencies": {
+    "@thedutchcoder/postcss-rem-to-px": "^0.0.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.13"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "@wxt-dev/module-react": "^1.1.1",
+    "typescript": "^5.6.2",
+    "wxt": "^0.19.11"
+  }
+}
